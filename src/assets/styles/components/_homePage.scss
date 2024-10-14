@@ -1,0 +1,36 @@
+.homePage {
+  height: 80%;
+  flex-grow: 1; /* Takes all available remaining space */
+  background-color: whitesmoke; /* Customize as per your needs */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  padding: 30px;
+  .homeProducts {
+    padding: 20px;
+    flex: 6;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    // background-color: #5ba8bd;
+    background-color: #FFCFB3;
+    // background-color: #507687;
+  }
+  .homeProductDetails {
+    flex: 4;
+    height: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcfaee;
+    // background-color: #f2f2f2;
+  }
+}

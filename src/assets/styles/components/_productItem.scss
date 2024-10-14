@@ -1,0 +1,30 @@
+.productItem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    background-color: #FCFAEE;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    // padding: 20px;
+    .productInfo{
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        .productInfo_content{
+            .name{
+                font-size: 1.2em;
+                font-weight: bold;
+            }
+        }
+    }
+    img{
+        width: 80px;
+        height: 80px;
+    }
+}

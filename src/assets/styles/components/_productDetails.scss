@@ -1,0 +1,21 @@
+.productDetails {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  .productImg {
+    width: 120px;
+    height: 120px;
+    // align-self: flex-start;
+  }
+  .productDetailsForm {
+    display: flex;
+    // height: 60%;
+    width: 80%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

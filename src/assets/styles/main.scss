@@ -1,0 +1,35 @@
+@import "./components/app";
+@import "./components/header";
+@import "./components/homePage";
+@import "./components/productsActions";
+@import "./components/productItem";
+@import "./components/productsList";
+@import "./components/productDetails";
+@import "./components/input";
+@import "./components/myButton";
+@import "./components/pagination";
+
+/* src/App.css */
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+/* Apply the font globally */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
